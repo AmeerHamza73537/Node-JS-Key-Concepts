@@ -1,0 +1,19 @@
+{
+  "name": "freecodecamp-tutorial",
+  "version": "1.0.0",
+  "description": "XD",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hell",
+    "yeah"
+  ],
+  "author": "hamza",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7",
+    "lodash": "^4.17.21"
+  }
+}
