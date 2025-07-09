@@ -1,11 +1,10 @@
 // For file module, we can use FS MODULE asynchronously non blocking or synchronously which 
 // is blocking
 
-const { log } = require('console')
+// const { log } = require('console')
 const {readFile, writeFile} = require('fs')
 
 console.log('start');
-
 readFile('./content/first.txt', 'utf8',(err,result)=>{
     if(err){
         console.log(err)

@@ -4,7 +4,7 @@
   "description": "XD",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "hell",
@@ -14,6 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.7",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
